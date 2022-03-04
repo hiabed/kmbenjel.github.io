@@ -30,9 +30,11 @@ input[value] {
   text-align: center;
 }
 
-.btn {
-
+button {
+  width: 3vw;
+  height: 5vh;
 }
+
 
 
 

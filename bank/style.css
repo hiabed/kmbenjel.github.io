@@ -1,15 +1,39 @@
-body {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  line-height: 1.8;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
   background: whitesmoke;
 }
 
-.container {
-  max-width: 500px;
-  position: relative;
-  left: 50px;
-  right: 50px;
+body {
+  text-align: center;
+  line-height: 3;
+  background: ghostwhite;
 }
+
+main {
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+input {
+  width: 30vw;
+  height: 5vh;
+  font-size: medium;
+}
+
+input[value] {
+  text-align: center;
+}
+
+.btn {
+
+}
+
+
+
 
